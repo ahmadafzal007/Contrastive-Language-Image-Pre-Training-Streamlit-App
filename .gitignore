@@ -8,3 +8,8 @@ __pycache__/
 thumbs.db
 .DS_Store
 .idea
+
+
+# conda install -c conda-forge streamlit
+# conda install -c conda-forge pytorch torchvision torchaudio cpuonly  # for CPU version
+# pip install ftfy regex tqdm
