@@ -1,19 +1,52 @@
-# CLIP
+# 🧩 CLIP-Based Streamlit App
 
-[[Blog]](https://openai.com/blog/clip/) [[Paper]](https://arxiv.org/abs/2103.00020) [[Model Card]](model-card.md) [[Colab]](https://colab.research.google.com/github/openai/clip/blob/master/notebooks/Interacting_with_CLIP.ipynb)
+This project showcases a Streamlit app that utilizes the CLIP (Contrastive Language-Image Pre-Training) model to provide interactive image-text matching capabilities. CLIP is a powerful neural network trained on various (image, text) pairs, allowing it to predict the most relevant text snippet given an image.
 
-CLIP (Contrastive Language-Image Pre-Training) is a neural network trained on a variety of (image, text) pairs. It can be instructed in natural language to predict the most relevant text snippet, given an image, without directly optimizing for the task, similarly to the zero-shot capabilities of GPT-2 and 3. We found CLIP matches the performance of the original ResNet50 on ImageNet “zero-shot” without using any of the original 1.28M labeled examples, overcoming several major challenges in computer vision.
+---
 
+## 🌟 Key Features
 
+- 🖼️ **Image-Text Matching:** Predicts the most relevant text snippet for a given image.
+- 📜 **Zero-Shot Learning:** Utilizes zero-shot capabilities similar to GPT-2 and GPT-3.
+- 🖥️ **Interactive Streamlit App:** Provides a user-friendly interface for experimenting with CLIP.
 
+---
 
+## 🛠️ Technologies Used
 
-## Usage
+- **Python:** Programming language for implementation.
+- **Streamlit:** Framework for creating interactive web applications.
+- **PyTorch:** Deep learning library used for the CLIP model.
 
-First, [install PyTorch 1.7.1](https://pytorch.org/get-started/locally/) (or later) and torchvision, as well as small additional dependencies, and then install this repo as a Python package. On a CUDA GPU machine, the following will do the trick:
+---
 
-```bash
-$ conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0
-$ pip install ftfy regex tqdm
-$ pip install git+https://github.com/openai/CLIP.git
-```
+## 🌐 Hosted Application
+
+You can try the live Streamlit app at: [CLIP Streamlit App](https://your-app-url-here) 
+
+(Note: Replace with the actual URL if hosted.)
+
+---
+
+## 🎥 Demo Video
+
+Watch the demo video to see the CLIP-based Streamlit app in action:
+
+[![CLIP-Based Streamlit App Demo](https://img.youtube.com/vi/mf6e5rpHGeM/0.jpg)](https://youtu.be/mf6e5rpHGeM)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Python 3.7+**
+- **PyTorch 1.7.1+**
+- **Streamlit**
+- **torchvision**
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/ahmadafzal007/Contrastive-Language-Image-Pre-Training.git
