@@ -20,14 +20,6 @@ This project showcases a Streamlit app that utilizes the CLIP (Contrastive Langu
 
 ---
 
-## 🌐 Hosted Application
-
-You can try the live Streamlit app at: [CLIP Streamlit App](https://your-app-url-here) 
-
-(Note: Replace with the actual URL if hosted.)
-
----
-
 ## 🎥 Demo Video
 
 Watch the demo video to see the CLIP-based Streamlit app in action:
